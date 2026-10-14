@@ -1,7 +1,8 @@
 
 from functii import (
-    suma_cifrelor
+    suma_cifrelor,
+    suma_cifrelor_pare
 )
 
 if __name__ == '__main__':
-    print(suma_cifrelor(123))
+    print(suma_cifrelor_pare(123456))
